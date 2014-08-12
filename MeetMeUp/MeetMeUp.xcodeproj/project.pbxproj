@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84107BF1199004FC000BF7FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84107BF0199004FC000BF7FB /* AppDelegate.swift */; };
+		84107BF3199004FC000BF7FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84107BF2199004FC000BF7FB /* ViewController.swift */; };
+		84107BF6199004FC000BF7FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84107BF4199004FC000BF7FB /* Main.storyboard */; };
+		84107BF8199004FC000BF7FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84107BF7199004FC000BF7FB /* Images.xcassets */; };
+		84107C04199004FC000BF7FB /* MeetMeUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84107C03199004FC000BF7FB /* MeetMeUpTests.swift */; };
+		8419F15419902CE3001317EC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419F15319902CE3001317EC /* DetailViewController.swift */; };
+		8419F15619903BA3001317EC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419F15519903BA3001317EC /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84107BFE199004FC000BF7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84107BE3199004FC000BF7FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84107BEA199004FC000BF7FB;
+			remoteInfo = MeetMeUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84107BEB199004FC000BF7FB /* MeetMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84107BEF199004FC000BF7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84107BF0199004FC000BF7FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84107BF2199004FC000BF7FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84107BF5199004FC000BF7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84107BF7199004FC000BF7FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84107BFD199004FC000BF7FB /* MeetMeUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84107C02199004FC000BF7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84107C03199004FC000BF7FB /* MeetMeUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetMeUpTests.swift; sourceTree = "<group>"; };
+		8419F15319902CE3001317EC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8419F15519903BA3001317EC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84107BE8199004FC000BF7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84107BFA199004FC000BF7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84107BE2199004FC000BF7FB = {
+			isa = PBXGroup;
+			children = (
+				84107BED199004FC000BF7FB /* MeetMeUp */,
+				84107C00199004FC000BF7FB /* MeetMeUpTests */,
+				84107BEC199004FC000BF7FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84107BEC199004FC000BF7FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84107BEB199004FC000BF7FB /* MeetMeUp.app */,
+				84107BFD199004FC000BF7FB /* MeetMeUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84107BED199004FC000BF7FB /* MeetMeUp */ = {
+			isa = PBXGroup;
+			children = (
+				84107BF0199004FC000BF7FB /* AppDelegate.swift */,
+				84107BF2199004FC000BF7FB /* ViewController.swift */,
+				8419F15319902CE3001317EC /* DetailViewController.swift */,
+				8419F15519903BA3001317EC /* WebViewController.swift */,
+				84107BF4199004FC000BF7FB /* Main.storyboard */,
+				84107BF7199004FC000BF7FB /* Images.xcassets */,
+				84107BEE199004FC000BF7FB /* Supporting Files */,
+			);
+			path = MeetMeUp;
+			sourceTree = "<group>";
+		};
+		84107BEE199004FC000BF7FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84107BEF199004FC000BF7FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84107C00199004FC000BF7FB /* MeetMeUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				84107C03199004FC000BF7FB /* MeetMeUpTests.swift */,
+				84107C01199004FC000BF7FB /* Supporting Files */,
+			);
+			path = MeetMeUpTests;
+			sourceTree = "<group>";
+		};
+		84107C01199004FC000BF7FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84107C02199004FC000BF7FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84107BEA199004FC000BF7FB /* MeetMeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84107C07199004FC000BF7FB /* Build configuration list for PBXNativeTarget "MeetMeUp" */;
+			buildPhases = (
+				84107BE7199004FC000BF7FB /* Sources */,
+				84107BE8199004FC000BF7FB /* Frameworks */,
+				84107BE9199004FC000BF7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetMeUp;
+			productName = MeetMeUp;
+			productReference = 84107BEB199004FC000BF7FB /* MeetMeUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84107BFC199004FC000BF7FB /* MeetMeUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84107C0A199004FC000BF7FB /* Build configuration list for PBXNativeTarget "MeetMeUpTests" */;
+			buildPhases = (
+				84107BF9199004FC000BF7FB /* Sources */,
+				84107BFA199004FC000BF7FB /* Frameworks */,
+				84107BFB199004FC000BF7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84107BFF199004FC000BF7FB /* PBXTargetDependency */,
+			);
+			name = MeetMeUpTests;
+			productName = MeetMeUpTests;
+			productReference = 84107BFD199004FC000BF7FB /* MeetMeUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84107BE3199004FC000BF7FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Ren;
+				TargetAttributes = {
+					84107BEA199004FC000BF7FB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					84107BFC199004FC000BF7FB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 84107BEA199004FC000BF7FB;
+					};
+				};
+			};
+			buildConfigurationList = 84107BE6199004FC000BF7FB /* Build configuration list for PBXProject "MeetMeUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84107BE2199004FC000BF7FB;
+			productRefGroup = 84107BEC199004FC000BF7FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84107BEA199004FC000BF7FB /* MeetMeUp */,
+				84107BFC199004FC000BF7FB /* MeetMeUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84107BE9199004FC000BF7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84107BF6199004FC000BF7FB /* Main.storyboard in Resources */,
+				84107BF8199004FC000BF7FB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84107BFB199004FC000BF7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84107BE7199004FC000BF7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84107BF3199004FC000BF7FB /* ViewController.swift in Sources */,
+				84107BF1199004FC000BF7FB /* AppDelegate.swift in Sources */,
+				8419F15419902CE3001317EC /* DetailViewController.swift in Sources */,
+				8419F15619903BA3001317EC /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84107BF9199004FC000BF7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84107C04199004FC000BF7FB /* MeetMeUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84107BFF199004FC000BF7FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84107BEA199004FC000BF7FB /* MeetMeUp */;
+			targetProxy = 84107BFE199004FC000BF7FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84107BF4199004FC000BF7FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84107BF5199004FC000BF7FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84107C05199004FC000BF7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84107C06199004FC000BF7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84107C08199004FC000BF7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MeetMeUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84107C09199004FC000BF7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MeetMeUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84107C0B199004FC000BF7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeetMeUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetMeUp.app/MeetMeUp";
+			};
+			name = Debug;
+		};
+		84107C0C199004FC000BF7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeetMeUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetMeUp.app/MeetMeUp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84107BE6199004FC000BF7FB /* Build configuration list for PBXProject "MeetMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84107C05199004FC000BF7FB /* Debug */,
+				84107C06199004FC000BF7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84107C07199004FC000BF7FB /* Build configuration list for PBXNativeTarget "MeetMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84107C08199004FC000BF7FB /* Debug */,
+				84107C09199004FC000BF7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84107C0A199004FC000BF7FB /* Build configuration list for PBXNativeTarget "MeetMeUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84107C0B199004FC000BF7FB /* Debug */,
+				84107C0C199004FC000BF7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84107BE3199004FC000BF7FB /* Project object */;
+}
